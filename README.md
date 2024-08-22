@@ -12,8 +12,6 @@ This is a Nest.js-based API that allows users to interact with a PostgreSQL data
 - [API Documentation](#api-documentation)
 - [Running Tests](#running-tests)
 - [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
@@ -51,30 +49,25 @@ Create a .env file in the root directory of the project and add the following en
 
 ### Running the Application
 To start the application, use the following command:
-
 npm run start
-
 The application will start on http://localhost:3000.
 
 ### API Documentation
 API documentation is available through Swagger. Once the application is running, visit the following URL to access the documentation:
-
 http://localhost:3000/api-docs
-
 The Swagger UI allows you to test the API endpoints directly from your browser.
 
 ### Running Tests
 Unit tests are included to ensure the API functions as expected. To run the tests, use the following command:
-
 npm run test
 
 ### Technologies Used
-Nest.js - A progressive Node.js framework
-TypeORM - ORM for TypeScript and JavaScript
-PostgreSQL - Relational database
-JWT - JSON Web Tokens for authentication
-Swagger - API documentation
-Jest - Testing framework
+- Nest.js - A progressive Node.js framework
+- TypeORM - ORM for TypeScript and JavaScript
+- PostgreSQL - Relational database
+- JWT - JSON Web Tokens for authentication
+- Swagger - API documentation
+- Jest - Testing framework
 
 
 
